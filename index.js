@@ -14,7 +14,7 @@ module.exports = function(sails) {
     //var uninstall = require('./lib/uninstall.js');
 
     gladys.on('ready', function(){
-        init();
+        init().catch(sails.log.warn);
     });
 
     return {
