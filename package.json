@@ -1,6 +1,6 @@
 {
   "name": "gladys-linky",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gladys Linky",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,17 @@
   "author": "Pjap93",
   "license": "CC-BY-NC-SA-3.0",
   "dependencies": {
-	"@bokub/linky": "^0.2.1"
+        "@bokub/linky": "^0.2.1",
+        "axios": "^0.18.0",
+        "console.table": "^0.10.0",
+        "dotenv": "^7.0.0",
+        "express": "^4.16.4",
+        "forest-express-mongoose": "^2.14.0",
+        "fs": "^0.0.1-security",
+        "lodash": "^4.17.11",
+        "moment": "^2.24.0",
+        "querystring": "^0.2.0",
+        "signale": "^1.2.1",
+		"snyk": "^1.143.1"
   }
 }
