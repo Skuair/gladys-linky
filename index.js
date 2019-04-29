@@ -2,11 +2,11 @@ module.exports = function(sails) {
     
     //var setup = require('./lib/setup.js');
     //var exec = require('./lib/exec.js');
-    var init = require('./lib/init.js');
-    var install = require('./lib/install.js');
-	var initialize = require('./lib/initialize.js');
-	var getParamsClient = require('./lib/getParamsClient.js');
-	var getAPIConsom = require('./lib/getAPIConsom.js');
+    var init = require('./lib/linky.init.js');
+    var install = require('./lib/linky.install.js');
+	var initialize = require('./lib/linky.initialize.js');
+	var getParamsClient = require('./lib/linky.getParamsClient.js');
+	var getAPIConsom = require('./lib/linky.getAPIConsom.js');
 
 	
 
