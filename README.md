@@ -7,12 +7,12 @@ Testée version Gladys 3.12.1
 
 Exemple : 
 
-   Nom: MyApps
+   Nom: Linky
    
    Version: ![GitHub release](https://img.shields.io/github/release/pjap93/gladys-linky.svg)
    
    URL Git: https://github.com/pjap93/gladys-linky
    
-   Slug: myapps
+   Slug: linky
     
 -	Redémarrer Gladys
