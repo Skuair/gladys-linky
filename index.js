@@ -6,7 +6,7 @@ module.exports = function(sails) {
     var install = require('./lib/linky.install.js');
 	var initialize = require('./lib/linky.initialize.js');
 	var getParamsClient = require('./lib/linky.getParamsClient.js');
-	var getAPIConsom = require('./lib/linky.getAPIConsom.js');
+	var getAPIConsomDay = require('./lib/linky.getAPIConsomDay.js');
 
 	
 
@@ -24,6 +24,6 @@ module.exports = function(sails) {
 	  //exec: exec,
 	  initialize: initialize,
 	  getParamsClient: getParamsClient,
-	  getAPIConsom: getAPIConsom
+	  getAPIConsomDay: getAPIConsomDay
     };
 };
