@@ -1,4 +1,4 @@
-﻿# Module Gladys Linky
+﻿﻿# Module Gladys Linky
 
 Testée version Gladys 3.12.1
 
@@ -15,4 +15,12 @@ Exemple :
    
    Slug: linky
     
--	Redémarrer Gladys
+- Redémarrer Gladys
+
+- Modifier les nouveaux paramètres 'LINKY_API_CLIENT_ID' et 'LINKY_API_CLIENT_SECRET' par les données transmises par Enedis lors de votre création de compte.
+
+- Redémarrer à nouveau Gladys pour prendre en compte les nouveaux paramètres
+
+# Fonctions
+
+- Mise à jours des données Jour/Mois/Année toutes les 12 heures automatiquement depuis le site Enedis
