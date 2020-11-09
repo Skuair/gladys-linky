@@ -1,6 +1,7 @@
 ﻿﻿# Module Gladys Linky
 
-Testée version Gladys 3.12.1
+Testée version Gladys 3.14.0.
+Fork de https://github.com/pjap93/gladys-linky, modifié suite aux changements d'API de Enedis et utilisée par https://github.com/bokub/linky.
 
 ﻿# Installation du module
  - Installer le module dans Gladys à l'aide du menu avancé (Nom, Version, URL Git, et slug) 
@@ -9,15 +10,15 @@ Exemple :
 
    Nom: Linky
    
-   Version: ![GitHub release](https://img.shields.io/github/release/pjap93/gladys-linky.svg)
+   Version: 1.0.0
    
-   URL Git: https://github.com/pjap93/gladys-linky
+   URL Git: https://github.com/Skuair/gladys-linky.git
    
    Slug: linky
     
 - Redémarrer Gladys
 
-- Modifier les nouveaux paramètres 'LINKY_API_CLIENT_ID' et 'LINKY_API_CLIENT_SECRET' par les données transmises par Enedis lors de votre création de compte.
+- Modifier les nouveaux paramètres 'LINKY_API_ACCESS_TOKEN', 'LINKY_API_REFRESH_TOKEN' et 'LINKY_API_POINT_ID' selon la description donnée par https://github.com/bokub/linky (https://conso.vercel.app/)
 
 - Redémarrer à nouveau Gladys pour prendre en compte les nouveaux paramètres
 
