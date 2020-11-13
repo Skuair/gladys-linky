@@ -1,4 +1,4 @@
-﻿﻿# Module Gladys Linky
+# Module Gladys Linky
 
 Module compatible avec Gladys 3.X. Testé en 3.14.0.
 Fork de https://github.com/pjap93/gladys-linky, modifié suite aux changements d'API de Enedis et utilisée par https://github.com/bokub/linky.
