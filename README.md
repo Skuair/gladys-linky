@@ -18,5 +18,7 @@ Fork de https://github.com/pjap93/gladys-linky, modifié suite aux changements d
 - Redémarrer à nouveau Gladys pour prendre en compte les nouveaux paramètres
 
 # Fonctions
+Mise à jours des données de consommation et de puissance maximum atteinte journalière toutes les 12 heures via l'API Enedis
 
-- Mise à jours des données de consommation et de puissance maximum atteinte journalière toutes les 12 heures via l'API Enedis
+# Notes
+Les tokens sont rafraîchis automatiquement lorsqu'ils sont périmés et les nouvelles valeurs sont mises à jour dans les paramètres 'LINKY_API_ACCESS_TOKEN' et 'LINKY_API_REFRESH_TOKEN'. C'est donc normal que les premiers tokens mis dans ces paramètres ne soient plus visibles après plusieurs lancements.
